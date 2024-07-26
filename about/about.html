@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- Link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Link fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link stylesheets -->
+
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/about-media.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Start navbar -->
+        <nav class="navbar container">
+            <div class="navmobile">
+                <ul>
+                    <li class="logo"><a href="../index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                        <i onclick=closeNavbar() class="fa-solid fa-xmark fa-xl"></i>
+                    </li>
+                    <li><a href="../pricing/pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="nav-left">
+                <a href="../index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="../pricing/pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <i onclick=showNavbar() class="open fa-solid fa-bars fa-xl"></i>
+                <button class="btn">Schedule a Demo</button>
+            </div>
+        </nav>
+        <!-- Finish navbar -->
+
+        <!-- Main page -->
+        <section class="container">
+            <div class="about-top">
+                <h1>We empower innovators
+                    by delivering access to the financial system</h1>
+                <div class="about-top-text">
+                    <div>
+                        <h2>Our Vision</h2>
+                        <p>Our main goal is to build beautiful consumer experiences along with developer-friendly
+                            infrastructure. The result is an
+                            intelligent tool that gives everyone the ability to create amazing products that solve big
+                            problems. We are deeply
+                            focused on democratizing financial services through technology.</p>
+                    </div>
+                    <div>
+                        <h2>Our Business</h2>
+                        <p>At the core of our platform is the technical infrastructure APIs that connect consumers. Our
+                            innovative product provides
+                            key insights for businesses and individuals, as well as robust reporting for traditional
+                            financial institutions and
+                            developers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-middle"></div>
+
+            <div class="results">
+                <div class="box">
+                    <p>Team Members</p>
+                    <h1>300+</h1>
+                </div>
+                <div class="box">
+                    <p>Offices in the US</p>
+                    <h1>3</h1>
+                </div>
+                <div class="box">
+                    <p>Transactions analyzed</p>
+                    <h1>10M+</h1>
+                </div>
+            </div>
+
+            <div class="about-top-text">
+                <div>
+                    <h2>The Culture</h2>
+                    <p>We strongly believe there's always an opportunity to learn from each other outside of day-to-day
+                        work, whether it's
+                        company-wide offsites, internal hackathons, or co-worker meetups. We always value cross-team
+                        collaboration and diversity
+                        of thought, no matter the job title.</p>
+                </div>
+                <div>
+                    <h2>The People</h2>
+                    <p>We're all passionate about building a more efficient and inclusive financial infrastructure
+                        together. At PayAPI, we have
+                        diverse backgrounds and skills.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Main page -->
+
+
+        <!-- Start email section -->
+        <div class="email container">
+            <h1>Ready to start?</h1>
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter email address">
+                <button class="btn">Schedule a Demo</button>
+            </div>
+        </div>
+        <!-- Finish email section -->
+
+        <footer>
+            <div class="last container">
+                <div class="nav-left">
+                    <a href="../index.html"><img src="./icons/footer-logo.svg" alt=""></a>
+                    <ul>
+                        <li><a href="../pricing/pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="last-right">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JavaScript -->
+        <script>
+            function showNavbar() {
+                const navmobile = document.querySelector('.navmobile')
+                navmobile.style.display = 'block'
+            }
+
+            function closeNavbar() {
+                const navmobile = document.querySelector('.navmobile')
+                navmobile.style.display = 'none'
+            }
+        </script>
+        <!-- JavaScript -->
+
+    </header>
+</body>
+
+</html>

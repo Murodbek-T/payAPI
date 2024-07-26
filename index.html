@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayApi</title>
+
+    <!-- Link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Link fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header>
+        <!-- Start navbar -->
+        <nav class="navbar container">
+            <div class="navmobile">
+                <ul>
+                    <li class="logo"><a href="index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                        <i onclick=closeNavbar() class="fa-solid fa-xmark fa-xl"></i>
+                    </li>
+                    <li><a href="pricing/pricing.html" target="_blank">Pricing</a></li>
+                    <li><a href="./about/about.html">About</a></li>
+                    <li><a href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="nav-left">
+                <a href="index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="pricing/pricing.html" target="_blank">Pricing</a></li>
+                    <li><a href="./about/about.html" target="_blank">About</a></li>
+                    <li><a href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <i onclick=showNavbar() class="open fa-solid fa-bars fa-xl"></i>
+                <button class="btn">Schedule a Demo</button>
+            </div>
+        </nav>
+        <!-- Finish navbar -->
+
+        <!-- Start main page -->
+        <div class="main container">
+            <div class="main-right">
+                <img src="./images/phone.png" alt="">
+            </div>
+            <div class="main-left">
+                <h1>Start building with our APIs for absolutely free.</h1>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Enter email address">
+                    <button class="btn">Schedule a Demo</button>
+                </div>
+                <p>Have any questions? <a href="#">Contact Us</a></p>
+            </div>
+        </div>
+        <!-- Finish main page -->
+    </header>
+
+    <!-- Start brands section -->
+
+    <div class="section">
+        <div class="brands container">
+            <div class="brands-left">
+                <h2>Who we work with</h2>
+                <p>Today, millions of people around the world have successfully connected their accounts to apps they
+                    love using our API.
+                    We provide developers with the tools they need to create easy and accessible experiences for their
+                    users.</p>
+                <button class="btn2">About Us</button>
+            </div>
+
+            <div class=" brands-right">
+                <img src="./icons/tesla.svg" alt="">
+                <img src="./icons/microsoft.svg" alt="">
+                <img src="./icons/hp.svg" alt="">
+                <img src="./icons/oracle.svg" alt="">
+                <img src="./icons/google.svg" alt="">
+                <img src="./icons/nvidia.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Finish brands section -->
+
+    <!-- Start codebox -->
+    <div class="codebox container">
+        <div class="codebox-right">
+            <img src="./images/codebox.png" alt="">
+        </div>
+
+        <div class="codebox-left">
+            <h1>Easy to implement</h1>
+            <p>Our API comes with just a few lines of code. You’ll be up and running in no time. We built our
+                documentation page to
+                integrate payments functionality with ease.</p>
+        </div>
+    </div>
+    <!-- Finish codebox -->
+
+    <!-- Start phones section -->
+    <div class="phones container">
+        <div class="phones-text">
+            <h1>Simple UI & UX</h1>
+            <p>Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize
+                conversion.</p>
+        </div>
+
+        <div class="phones-images">
+            <img src="./images/ui-phone1.png" alt="">
+            <div class="phone2"></div>
+        </div>
+    </div>
+    <!-- Finish phones section -->
+
+    <!-- Start payments section -->
+    <div class="payments container">
+        <div class="wrapper">
+            <div class="logo2">
+                <img src="./icons/money.svg" alt="">
+            </div>
+            <h3>Personal Finances</h3>
+            <p>Consolidate financial data from multiple sources and categorize transactions up to 2 years of history.
+                Analyze reports
+                to reconcile activities in your account.</p>
+        </div>
+        <div class="wrapper">
+            <div class="logo2">
+                <img src="./icons/diagram.svg" alt="">
+            </div>
+            <h3>Banking & Coverage</h3>
+            <p>With our platform, you can speed up account onboarding and support ongoing payments for checking,
+                savings, credit card,
+                and brokerage accounts.</p>
+        </div>
+        <div class="wrapper">
+            <div class="logo2">
+                <img src="./icons/card.svg" alt="">
+            </div>
+            <h3>Consumer Payments</h3>
+            <p>It’s easier to set up secure bank payments with us through a flow designed with the user experience in
+                mind. Customers
+                could instantly authenticate their account.</p>
+        </div>
+    </div>
+    <!-- Finish payments section -->
+
+    <!-- Start email section -->
+    <div class="email container">
+        <h1>Ready to start?</h1>
+        <div class="input-wrapper">
+            <input type="text" placeholder="Enter email address">
+            <button class="btn">Schedule a Demo</button>
+        </div>
+    </div>
+    <!-- Finish email section -->
+
+    <footer>
+        <div class="last container">
+            <div class="nav-left">
+                <a href="index.html"><img src="./icons/footer-logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="./pricing/pricing.html" target="_blank">Pricing</a></li>
+                    <li><a href="./about/about.html" target="_blank">About</a></li>
+                    <li><a href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="last-right">
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        function showNavbar() {
+            const navmobile = document.querySelector('.navmobile')
+            navmobile.style.display = 'block'
+        }
+
+        function closeNavbar() {
+            const navmobile = document.querySelector('.navmobile')
+            navmobile.style.display = 'none'
+        }
+    </script>
+    <!-- JavaScript -->
+</body>
+
+</html>

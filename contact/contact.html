@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Link fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link stylesheets -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/contact-media.css">
+</head>
+
+<body>
+    <header>
+        <!-- Start navbar -->
+        <nav class="navbar container">
+            <div class="navmobile">
+                <ul>
+                    <li class="logo"><a href="../index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                        <i onclick=closeNavbar() class="fa-solid fa-xmark fa-xl"></i>
+                    </li>
+                    <li><a href="../pricing/pricing.html">Pricing</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="nav-left">
+                <a href="../index.html"><img src="./icons/nav-logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="../pricing/pricing.html">Pricing</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <i onclick=showNavbar() class="open fa-solid fa-bars fa-xl"></i>
+                <button class="btn">Schedule a Demo</button>
+            </div>
+        </nav>
+    </header>
+    <!-- Finish navbar -->
+
+    <!-- Start main page -->
+    <div class="main container">
+        <h1>Submit a help request and
+            we’ll get in touch shortly.</h1>
+
+        <div class="wrapper">
+            <div class="main-left">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Company Name">
+                <input type="text" placeholder="Title">
+                <input type="text" placeholder="Message">
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Stay up-to-date with company announcements and updates to our API</label>
+                </div>
+                <button class="btn card-btn">Submit</button>
+            </div>
+
+            <div class="main-right">
+                <h2>Join the thousands of innovators that are already building with us</h2>
+                <div class="main-logos">
+                    <img src="./icons/tesla.svg" alt="">
+                    <img src="./icons/microsoft.svg" alt="">
+                    <img src="./icons/hp.svg" alt="">
+                    <img src="./icons/oracle.svg" alt="">
+                    <img src="./icons/google.svg" alt="">
+                    <img src="./icons/nvidia.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Finish main page -->
+
+
+            <!-- Start email section -->
+            <div class="email container">
+                <h1>Ready to start?</h1>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Enter email address">
+                    <button class="btn">Schedule a Demo</button>
+                </div>
+            </div>
+            <!-- Finish email section -->
+            
+            <footer>
+                <div class="last container">
+                    <div class="nav-left">
+                        <a href="../index.html"><img src="./icons/footer-logo.svg" alt=""></a>
+                        <ul>
+                            <li><a href="../pricing/pricing.html">Pricing</a></li>
+                            <li><a href="../about/about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="last-right">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </div>
+                </div>
+            </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        function showNavbar() {
+            const navmobile = document.querySelector('.navmobile')
+            navmobile.style.display = 'block'
+        }
+
+        function closeNavbar() {
+            const navmobile = document.querySelector('.navmobile')
+            navmobile.style.display = 'none'
+        }
+    </script>
+    <!-- JavaScript -->
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+/* Mobile  M*/
+@media (max-width: 375px) {
+  .nav-left ul {
+    display: none;
+  }
+  .nav-right .btn {
+    display: none;
+  }
+
+  .nav-right i {
+    display: block;
+  }
+
+  /* Main page */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main h1 {
+    width: 300px;
+    color: var(--secondary-color1);
+    font-size: 2rem;
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .main-left {
+    align-items: center;
+  }
+
+  .main-left input {
+    width: 327px;
+    border: none;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #6c8294;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .check label {
+    width: 300px;
+    color: var(--secondary-color1);
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .main-right {
+    margin-top: 5rem;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .main-right h2 {
+    width: 327px;
+    color: var(--secondary-color4);
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  /* Main page */
+
+  /* Start email */
+  .email {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .email h1 {
+    text-align: center;
+    width: 320px;
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--secondary-color1);
+  }
+
+  .input-wrapper {
+    height: 3rem;
+    background-color: #fff;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px -10px #36536b40;
+  }
+
+  /* Finish email */
+
+  /* Start last */
+  footer {
+    height: 22rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .last .nav-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last .nav-left ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  /* Finish last */
+}
+
+/* Mobile  S*/
+@media (max-width: 320px) {
+  .nav-left ul {
+    display: none;
+  }
+  .nav-right .btn {
+    display: none;
+  }
+
+  .nav-right i {
+    display: block;
+  }
+
+  /* Main page */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main h1 {
+    width: 260px;
+    color: var(--secondary-color1);
+    font-size: 1.6rem;
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .main-left {
+    align-items: center;
+  }
+
+  .main-left input {
+    width: 280px;
+    border: none;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #6c8294;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .check label {
+    width: 260px;
+    color: var(--secondary-color1);
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .main-right {
+    margin-top: 5rem;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .main-right h2 {
+    width: 260px;
+    color: var(--secondary-color4);
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .main-logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  /* Main page */
+
+  /* Start email */
+  .email {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .email h1 {
+    text-align: center;
+    width: 320px;
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--secondary-color1);
+  }
+
+  .input-wrapper {
+    height: 3rem;
+    background-color: #fff;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px -10px #36536b40;
+  }
+
+  /* Finish email */
+
+  /* Start last */
+  footer {
+    height: 22rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .last .nav-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last .nav-left ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  /* Finish last */
+}
